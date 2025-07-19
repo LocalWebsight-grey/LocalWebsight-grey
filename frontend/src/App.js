@@ -463,7 +463,7 @@ const Home = () => {
 // Main App Component
 function App() {
   return (
-    <div className="App">
+    <div className="App min-h-screen bg-black overflow-x-hidden">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
